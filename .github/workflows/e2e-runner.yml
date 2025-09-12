@@ -16,14 +16,15 @@ permissions:
 jobs:
   all-nonlatest-runners:
     #
-    # Tests on GitHub hosted runners[^1]
+    # Tests on GitHub-hosted runners[^1][^2]
     # - including runners in public preview, but
     # - excluding the `-latest` runners.
     #
-    # The `-latest` runners are tested in a separate workflow file[^2].
+    # The `-latest` runners are tested in a separate workflow file[^3].
     #
-    # [^1]: <https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners#standard-github-hosted-runners-for-public-repositories>
-    # [^2]: <https://github.com/TeX-Live/setup-texlive-action/blob/main/.github/workflows/e2e.yml>
+    # [^1]: <https://github.com/actions/runner-images?tab=readme-ov-file#available-images>
+    # [^2]: <https://github.com/actions/partner-runner-images?tab=readme-ov-file#available-images>
+    # [^3]: <https://github.com/TeX-Live/setup-texlive-action/blob/main/.github/workflows/e2e.yml>
     #
     if: ${{ !inputs.runner }}
     strategy:
