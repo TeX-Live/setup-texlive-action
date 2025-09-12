@@ -34,7 +34,8 @@ jobs:
           - ubuntu-22.04-arm
           - windows-2025
           - windows-11-arm
-          - macos-15
+          - macos-26
+          - macos-14
           - macos-13
       fail-fast: false
     runs-on: ${{ matrix.runner }}

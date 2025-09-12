@@ -357,21 +357,22 @@ Versions prior to `2017` does not support AArch64 (ARM64).
       <tr><td><code>windows-2022</code>*</td></tr>
       <tr><td><code>windows-11-arm</code></td></tr>
       <tr>
-        <th rowspan="3">macOS</th>
-        <td><code>macos-15</code></td>
-        <td rowspan="3">
+        <th rowspan="4">macOS</th>
+        <td><code>macos-26</code></td>
+        <td rowspan="4">
 
 `2013`&ndash;`2025`
 
 </td>
-        <td rowspan="3">
+        <td rowspan="4">
 
 Versions prior to `2013` are for 32-bit systems and
 will not work due to _<q>Bad CPU type in executable.</q>_
 
 </td>
       </tr>
-      <tr><td><code>macos-14</code>*</td></tr>
+      <tr><td><code>macos-15</code>*</td></tr>
+      <tr><td><code>macos-14</code></td></tr>
       <tr><td><code>macos-13</code></td></tr>
     </tbody>
     <tfoot>
