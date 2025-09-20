@@ -37,7 +37,6 @@ jobs:
           - windows-11-arm
           - macos-26
           - macos-14
-          - macos-13
       fail-fast: false
     runs-on: ${{ matrix.runner }}
     name: ${{ matrix.runner }}
