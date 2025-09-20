@@ -1,5 +1,5 @@
 --matrix runner:ubuntu-latest
---platform ubuntu-latest=node:20.0
+--platform ubuntu-latest=node:24.0
 --detect-event
 --env RUNNER_DEBUG=1
 --cache-server-path node_modules/.act
