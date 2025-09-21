@@ -1,7 +1,7 @@
 /** @satisfies {import('esbuild').CommonOptions} */
 export const transformConfig = {
-  /** @type {'node20'} */
-  target: 'node20',
+  /** @type {'node24'} */
+  target: 'node24',
   format: 'esm',
   platform: 'node',
   legalComments: 'inline',

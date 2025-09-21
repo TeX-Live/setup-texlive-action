@@ -35,7 +35,7 @@ describe('extract', () => {
     'throws an exception if the directory cannot be located',
     async (files) => {
       vi.spyOn(fs, 'readdir').mockResolvedValueOnce(
-        files as unknown as Dirent[],
+        files as unknown as Dirent<Buffer<ArrayBufferLike>>[],
       );
       vi.spyOn(tool, 'extractZip').mockResolvedValueOnce('<extractZip>');
       await expect(extract('<zipfile>', 'zip')).rejects.toThrow(
