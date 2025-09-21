@@ -61,7 +61,6 @@ function render(packages) {
     assert.equal(noticeText, undefined, `${name}@${version} has notice text`);
   }
   /** @type {Partial<{ [name: string]: IPackageLicenseMeta[] }>} */
-  // @ts-expect-error
   const modules = Object.groupBy(packages, ({ name }) => name);
   for (const [key, value] of Object.entries(modules)) {
     modules[key] = value?.sort((lhs, rhs) => {
