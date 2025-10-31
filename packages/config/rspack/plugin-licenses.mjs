@@ -19,6 +19,7 @@ const allowList = new Set([
   '(Apache-2.0 AND BSD-3-Clause)',
   '0BSD',
   'Apache-2.0',
+  'BlueOak-1.0.0',
   'BSD-3-Clause',
   'ISC',
   'MIT',
