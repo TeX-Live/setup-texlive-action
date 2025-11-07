@@ -16,7 +16,7 @@
   "dependencies": {
     "@actions/exec": "^1.1.1",
     "@actions/http-client": "^3.0.0",
-    "@actions/io": "^1.1.3",
+    "@actions/io": "^2.0.0",
     "@actions/tool-cache": "^2.0.2",
     "class-transformer": "^0.5.1",
     "scule": "^1.3.0",
