@@ -21,7 +21,7 @@ jobs:
       windows-latest: ${{ steps.status.outputs.windows-latest || '' }}
       macos-latest: ${{ steps.status.outputs.macos-latest || '' }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Setup TeX Live
         id: setup
         uses: ./
@@ -55,7 +55,7 @@ jobs:
       fail-fast: false
     runs-on: ${{ matrix.runner }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Setup TeX Live
         id: setup
         uses: ./
@@ -74,7 +74,7 @@ jobs:
       contents: read
     continue-on-error: true
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Install package
         run: >-
           npm ci
@@ -94,7 +94,7 @@ jobs:
       fail-fast: false
     runs-on: ${{ matrix.runner }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Setup TeX Live
         uses: ./
         with:
