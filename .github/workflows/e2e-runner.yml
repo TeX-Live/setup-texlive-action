@@ -41,7 +41,7 @@ jobs:
     runs-on: ${{ matrix.runner }}
     name: ${{ matrix.runner }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Setup TeX Live
         uses: ./
         with:
@@ -56,7 +56,7 @@ jobs:
     runs-on: ${{ inputs.runner }}
     name: ${{ inputs.runner }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Setup TeX Live
         uses: ./
         with:
