@@ -9,7 +9,7 @@
   "type": "module",
   "sideEffects": false,
   "dependencies": {
-    "@actions/core": "^1.11.0",
+    "@actions/core": "^2.0.1",
     "@actions/http-client": "^3.0.0",
     "@actions/tool-cache": "^2.0.2",
     "@teppeis/multimaps": "^3.0.0",
