@@ -1,12 +1,18 @@
 > [!CAUTION]
-> Seeking More Maintainers
+> This Action is deprecated.
 >
-> This is a temp replacement for the deleted `teatimeguest/setup-texlive-action` action and
-> [repo](https://github.com/teatimeguest/setup-texlive-action).
+> This is a stop-gap replacement for the deleted
+> [`teatimeguest/setup-texlive-action` Action and
+> repo](https://github.com/teatimeguest/setup-texlive-action).
 >
-> For now I (@muzimuzhi) am lacking the required Node.js/TypsScript skills to add features to or fix
-> possible bugs in this JavaScript action. I'm even unable to adapt code and tests after running
-> the attractive `npm audit fix`.
+> None of the current maintainers understand how this repository works,
+> so no new features will be added. Critical bugs (support for newer
+> versions of TeX Live, security vulnerabilities, support for newer
+> versions of GitHub runners) _might_ still get fixed, but we offer no
+> guarantees here.
+>
+> We recommend migrating to another Action, such as
+> [`zauguin/install-texlive`](https://github.com/zauguin/install-texlive).
 
 # setup-texlive-action
 
