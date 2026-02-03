@@ -3,15 +3,12 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: monthly
+      interval: weekly
+      day: friday
+      time: '05:00'
     groups:
       ci:
         patterns: ['*']
-    ignore:
-      - dependency-name: '*'
-        update-types:
-          - version-update:semver-minor
-          - version-update:semver-patch
     commit-message:
       prefix: ci
   - package-ecosystem: npm
@@ -21,7 +18,7 @@ updates:
       day: friday
       time: '05:00'
     allow:
-      - dependency-type: production
+      - dependency-name: '@actions/*'
     commit-message:
       prefix: build
       include: scope
