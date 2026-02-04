@@ -2,8 +2,7 @@
 > This Action is deprecated.
 >
 > This is a stop-gap replacement for the deleted
-> [`teatimeguest/setup-texlive-action` Action and
-> repo](https://github.com/teatimeguest/setup-texlive-action).
+> [`teatimeguest/setup-texlive-action` Action and repo][teatimeguest/setup-texlive-action].
 >
 > None of the current maintainers understand how this repository works,
 > so no new features will be added. Critical bugs (support for newer
@@ -13,6 +12,8 @@
 >
 > We recommend migrating to another Action, such as
 > [`zauguin/install-texlive`](https://github.com/zauguin/install-texlive).
+
+[teatimeguest/setup-texlive-action]: https://github.com/teatimeguest/setup-texlive-action
 
 # setup-texlive-action
 
