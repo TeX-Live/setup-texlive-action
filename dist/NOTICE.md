@@ -21,10 +21,13 @@ This software incorporates the following third-party software components:
 - [`@azure/core-xml`](#azurecore-xml)
 - [`@azure/logger`](#azurelogger)
 - [`@azure/storage-blob`](#azurestorage-blob)
-- [`@fastify/busboy`](#fastifybusboy)
+- [`@azure/storage-common`](#azurestorage-common)
+- [`@isaacs/balanced-match`](#isaacsbalanced-match)
+- [`@isaacs/brace-expansion`](#isaacsbrace-expansion)
 - [`@protobuf-ts/runtime`](#protobuf-tsruntime)
 - [`@protobuf-ts/runtime-rpc`](#protobuf-tsruntime-rpc)
 - [`@teppeis/multimaps`](#teppeismultimaps)
+- [`@typespec/ts-http-runtime`](#typespects-http-runtime)
 - [`agent-base`](#agent-base)
 - [`ansi-styles`](#ansi-styles)
 - [`array-from-async`](#array-from-async)
@@ -53,11 +56,11 @@ This software incorporates the following third-party software components:
 - [`temporal-polyfill`](#temporal-polyfill)
 - [`ts-mixer`](#ts-mixer)
 - [`ts-pattern`](#ts-pattern)
-- [`tslib`](#tslib)
 - [`tunnel`](#tunnel)
 - [`unctx`](#unctx)
 - [`undici`](#undici)
 - [`unist-util-stringify-position`](#unist-util-stringify-position)
+- [`url-extras`](#url-extras)
 - [`url-template`](#url-template)
 - [`vfile-message`](#vfile-message)
 
@@ -87,7 +90,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 URL: <https://www.npmjs.com/package/@actions/cache>
 
-### v4.0.3
+### v6.0.0
 
 License: `MIT`
 
@@ -107,7 +110,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 URL: <https://www.npmjs.com/package/@actions/core>
 
-### v1.11.1
+### v3.0.0
 
 License: `MIT`
 
@@ -127,7 +130,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 URL: <https://www.npmjs.com/package/@actions/exec>
 
-### v1.1.1
+### v3.0.0
 
 License: `MIT`
 
@@ -147,23 +150,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 URL: <https://www.npmjs.com/package/@actions/glob>
 
-### v0.5.0
-
-License: `MIT`
-
-```
-The MIT License (MIT)
-
-Copyright 2019 GitHub
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
-
-### v0.1.2
+### v0.6.1
 
 License: `MIT`
 
@@ -183,7 +170,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 URL: <https://www.npmjs.com/package/@actions/http-client>
 
-### v2.2.3
+### v4.0.0
 
 License: `MIT`
 
@@ -215,7 +202,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 URL: <https://www.npmjs.com/package/@actions/io>
 
-### v1.1.3
+### v3.0.2
 
 License: `MIT`
 
@@ -235,7 +222,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 URL: <https://www.npmjs.com/package/@actions/tool-cache>
 
-### v2.0.2
+### v4.0.0
 
 License: `MIT`
 
@@ -285,50 +272,20 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### v1.1.0
-
-Copyright (c) Microsoft Corporation
-
-License: `MIT`
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2020 Microsoft
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
 ## `@azure/core-auth`
 
 URL: <https://www.npmjs.com/package/@azure/core-auth>
 
-### v1.9.0
+### v1.10.1
 
 Copyright (c) Microsoft Corporation
 
 License: `MIT`
 
 ```
-The MIT License (MIT)
+Copyright (c) Microsoft Corporation.
 
-Copyright (c) 2020 Microsoft
+MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -340,7 +297,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -353,7 +310,7 @@ SOFTWARE.
 
 URL: <https://www.npmjs.com/package/@azure/core-client>
 
-### v1.9.3
+### v1.10.1
 
 Copyright (c) Microsoft Corporation
 
@@ -387,7 +344,7 @@ SOFTWARE.
 
 URL: <https://www.npmjs.com/package/@azure/core-http-compat>
 
-### v2.2.0
+### v2.3.1
 
 Copyright (c) Microsoft Corporation
 
@@ -455,7 +412,7 @@ SOFTWARE.
 
 URL: <https://www.npmjs.com/package/@azure/core-rest-pipeline>
 
-### v1.19.1
+### v1.22.2
 
 Copyright (c) Microsoft Corporation
 
@@ -489,16 +446,16 @@ SOFTWARE.
 
 URL: <https://www.npmjs.com/package/@azure/core-tracing>
 
-### v1.2.0
+### v1.3.1
 
 Copyright (c) Microsoft Corporation
 
 License: `MIT`
 
 ```
-The MIT License (MIT)
+Copyright (c) Microsoft Corporation.
 
-Copyright (c) 2020 Microsoft
+MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -510,7 +467,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -523,16 +480,16 @@ SOFTWARE.
 
 URL: <https://www.npmjs.com/package/@azure/core-util>
 
-### v1.11.0
+### v1.13.1
 
 Copyright (c) Microsoft Corporation
 
 License: `MIT`
 
 ```
-The MIT License (MIT)
+Copyright (c) Microsoft Corporation.
 
-Copyright (c) 2020 Microsoft
+MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -544,7 +501,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -557,7 +514,7 @@ SOFTWARE.
 
 URL: <https://www.npmjs.com/package/@azure/core-xml>
 
-### v1.4.5
+### v1.5.0
 
 Copyright (c) Microsoft Corporation
 
@@ -591,41 +548,7 @@ SOFTWARE.
 
 URL: <https://www.npmjs.com/package/@azure/logger>
 
-### v1.1.4
-
-Copyright (c) Microsoft Corporation
-
-License: `MIT`
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2020 Microsoft
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-## `@azure/storage-blob`
-
-URL: <https://www.npmjs.com/package/@azure/storage-blob>
-
-### v12.27.0
+### v1.3.0
 
 Copyright (c) Microsoft Corporation
 
@@ -655,43 +578,147 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## `@fastify/busboy`
+## `@azure/storage-blob`
 
-URL: <https://www.npmjs.com/package/@fastify/busboy>
+URL: <https://www.npmjs.com/package/@azure/storage-blob>
 
-### v2.1.1
+### v12.30.0
 
-Copyright (c) Brian White \<mscdex@mscdex.net\>
+Copyright (c) Microsoft Corporation
 
 License: `MIT`
 
 ```
-Copyright Brian White. All rights reserved.
+Copyright (c) Microsoft Corporation.
+
+MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to
-deal in the Software without restriction, including without limitation the
-rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-sell copies of the Software, and to permit persons to whom the Software is
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## `@azure/storage-common`
+
+URL: <https://www.npmjs.com/package/@azure/storage-common>
+
+### v12.2.0
+
+Copyright (c) Microsoft Corporation
+
+License: `MIT`
+
+```
+The MIT License (MIT)
+
+Copyright (c) 2018 Microsoft
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-IN THE SOFTWARE.
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## `@isaacs/balanced-match`
+
+URL: <https://www.npmjs.com/package/@isaacs/balanced-match>
+
+### v4.0.1
+
+License: `MIT`
+
+```
+(MIT)
+
+Original code Copyright Julian Gruber <julian@juliangruber.com>
+
+Port to TypeScript Copyright Isaac Z. Schlueter <i@izs.me>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## `@isaacs/brace-expansion`
+
+URL: <https://www.npmjs.com/package/@isaacs/brace-expansion>
+
+### v5.0.0
+
+License: `MIT`
+
+```
+MIT License
+
+Copyright Julian Gruber <julian@juliangruber.com>
+
+TypeScript port Copyright Isaac Z. Schlueter <i@izs.me>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 ## `@protobuf-ts/runtime`
 
 URL: <https://www.npmjs.com/package/@protobuf-ts/runtime>
 
-### v2.9.6
+### v2.11.1
 
 Copyright (c) Timo Stamm \<ts@timostamm.com\>
 
@@ -878,7 +905,7 @@ License: `(Apache-2.0 AND BSD-3-Clause)`
 
 URL: <https://www.npmjs.com/package/@protobuf-ts/runtime-rpc>
 
-### v2.9.6
+### v2.11.1
 
 Copyright (c) Timo Stamm \<ts@timostamm.com\>
 
@@ -1075,6 +1102,40 @@ License: `MIT`
 MIT License (https://opensource.org/license/mit/)
 ```
 
+## `@typespec/ts-http-runtime`
+
+URL: <https://www.npmjs.com/package/@typespec/ts-http-runtime>
+
+### v0.3.2
+
+Copyright (c) Microsoft Corporation
+
+License: `MIT`
+
+```
+Copyright (c) Microsoft Corporation.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
 ## `agent-base`
 
 URL: <https://www.npmjs.com/package/agent-base>
@@ -1114,7 +1175,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 URL: <https://www.npmjs.com/package/ansi-styles>
 
-### v6.2.1
+### v6.2.3
 
 Copyright (c) Sindre Sorhus \<sindresorhus@gmail.com\> (https://sindresorhus.com)
 
@@ -1210,36 +1271,6 @@ SOFTWARE.
 ## `brace-expansion`
 
 URL: <https://www.npmjs.com/package/brace-expansion>
-
-### v2.0.1
-
-Copyright (c) Julian Gruber \<mail@juliangruber.com\> (http://juliangruber.com)
-
-License: `MIT`
-
-```
-MIT License
-
-Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 ### v1.1.12
 
@@ -1341,7 +1372,7 @@ THE SOFTWARE.
 
 URL: <https://www.npmjs.com/package/clean-stack>
 
-### v5.2.0
+### v6.0.0
 
 Copyright (c) Sindre Sorhus \<sindresorhus@gmail.com\> (https://sindresorhus.com)
 
@@ -1514,7 +1545,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 URL: <https://www.npmjs.com/package/fast-xml-parser>
 
-### v5.2.0
+### v5.3.4
 
 Copyright (c) Amit Gupta (https://solothought.com)
 
@@ -1640,28 +1671,68 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 URL: <https://www.npmjs.com/package/minimatch>
 
-### v10.0.1
+### v10.1.1
 
 Copyright (c) Isaac Z. Schlueter \<i@izs.me\> (http://blog.izs.me)
 
-License: `ISC`
+License: `BlueOak-1.0.0`
 
 ```
-The ISC License
+# Blue Oak Model License
 
-Copyright (c) 2011-2023 Isaac Z. Schlueter and Contributors
+Version 1.0.0
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
+## Purpose
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
-IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+This license gives everyone as much permission to work with
+this software as possible, while protecting contributors
+from liability.
+
+## Acceptance
+
+In order to receive this license, you must agree to its
+rules. The rules of this license are both obligations
+under that agreement and conditions to your license.
+You must not do anything with this software that triggers
+a rule that you cannot or will not follow.
+
+## Copyright
+
+Each contributor licenses you to do everything with this
+software that would otherwise infringe that contributor's
+copyright in it.
+
+## Notices
+
+You must ensure that everyone who gets a copy of
+any part of this software from you, with or without
+changes, also gets the text of this license or a link to
+<https://blueoakcouncil.org/license/1.0.0>.
+
+## Excuse
+
+If anyone notifies you in writing that you have not
+complied with [Notices](#notices), you can keep your
+license by taking all practical steps to comply within 30
+days after the notice. If you do not do so, your license
+ends immediately.
+
+## Patent
+
+Each contributor licenses you to do everything with this
+software that would otherwise infringe any patent claims
+they can license or become able to license.
+
+## Reliability
+
+No contributor can revoke this license.
+
+## No Liability
+
+**_As far as the law allows, this software comes as is,
+without any warranty or condition, and no contributor
+will be liable to anyone for any damages related to this
+software or this license, under any kind of legal claim._**
 ```
 
 ### v3.1.2
@@ -1756,7 +1827,31 @@ SOFTWARE.
 
 URL: <https://www.npmjs.com/package/semver>
 
-### v7.7.2
+### v7.7.3
+
+Copyright (c) GitHub Inc.
+
+License: `ISC`
+
+```
+The ISC License
+
+Copyright (c) Isaac Z. Schlueter and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+```
+
+### v6.3.1
 
 Copyright (c) GitHub Inc.
 
@@ -1857,7 +1952,7 @@ SOFTWARE.
 
 URL: <https://www.npmjs.com/package/strnum>
 
-### v2.0.5
+### v2.1.2
 
 Copyright (c) Amit Gupta (https://amitkumargupta.work/)
 
@@ -1981,7 +2076,7 @@ SOFTWARE.
 
 URL: <https://www.npmjs.com/package/ts-pattern>
 
-### v5.7.1
+### v5.9.0
 
 Copyright (c) Gabriel Vergnaud
 
@@ -2009,31 +2104,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
-
-## `tslib`
-
-URL: <https://www.npmjs.com/package/tslib>
-
-### v2.8.1
-
-Copyright (c) Microsoft Corp.
-
-License: `0BSD`
-
-```
-Copyright (c) Microsoft Corporation.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-PERFORMANCE OF THIS SOFTWARE.
 ```
 
 ## `tunnel`
@@ -2074,7 +2144,7 @@ THE SOFTWARE.
 
 URL: <https://www.npmjs.com/package/unctx>
 
-### v2.4.1
+### v2.5.0
 
 License: `MIT`
 
@@ -2106,7 +2176,7 @@ SOFTWARE.
 
 URL: <https://www.npmjs.com/package/undici>
 
-### v5.29.0
+### v6.23.0
 
 License: `MIT`
 
@@ -2167,6 +2237,28 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+## `url-extras`
+
+URL: <https://www.npmjs.com/package/url-extras>
+
+### v0.1.0
+
+Copyright (c) Sindre Sorhus \<sindresorhus@gmail.com\> (https://sindresorhus.com)
+
+License: `MIT`
+
+```
+MIT License
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
 ## `url-template`
