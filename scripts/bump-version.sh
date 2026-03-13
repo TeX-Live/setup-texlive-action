@@ -16,7 +16,7 @@ case "${npm_lifecycle_event}" in
     fi
     ;;
 
-  postversion)
+  tag)
     git ls-files -z dist |
       xargs -0 git update-index --assume-unchanged --
 

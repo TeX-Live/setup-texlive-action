@@ -19,7 +19,7 @@
     "prepack": "run-p --aggregate-output -c build licenses",
     "preversion": "npm ci && npm run prepack",
     "version": "bash scripts/bump-version.sh",
-    "postversion": "bash scripts/bump-version.sh"
+    "tag": "bash scripts/bump-version.sh"
   },
   "author": "@TeX-Live",
   "license": "MIT",
