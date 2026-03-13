@@ -44,7 +44,7 @@ Linux, Windows, and macOS are supported.
 
 ## Breaking Changes in V4
 
-> In most cases, you can upgrade from v2 to v3 without changing your workflow.
+> In most cases, you can upgrade from v3 to v4 without changing your workflow.
 
 - Use Node.js v24 as runtime.
 
