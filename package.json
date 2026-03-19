@@ -58,7 +58,6 @@
     "mock-fs": "^5.5.0",
     "npm-run-all2": "^7.0.2",
     "patch-package": "^8.0.0",
-    "simple-git": "^3.32.3",
     "taze": "^19.0.4",
     "ts-dedent": "^2.2.0",
     "ts-essentials": "^10.0.4",
