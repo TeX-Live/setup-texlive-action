@@ -73,5 +73,11 @@
     },
     "rimraf@<=3": "^6.0.1",
     "semver": "$semver"
+  },
+  "allowScripts": {
+    "dprint@0.49.1": true,
+    "esbuild@0.25.2": true,
+    "@go-task/cli@3.42.1": true,
+    "@kie/act-js@2.6.2": true
   }
 }
