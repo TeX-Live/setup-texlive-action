@@ -57,7 +57,7 @@
     "git-cliff": "^2.8.0",
     "markdown-link-check": "^3.13.7",
     "mock-fs": "^5.5.0",
-    "npm-run-all2": "^7.0.2",
+    "npm-run-all2": "^9.0.2",
     "patch-package": "^8.0.0",
     "taze": "^19.0.4",
     "ts-dedent": "^2.2.0",
